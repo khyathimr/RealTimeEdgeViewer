@@ -1,0 +1,6 @@
+OpenCV Native Setup Notes
+
+- Added notes for linking OpenCV inside the NDK build.
+- Make sure jniLibs contains arm64-v8a and armeabi-v7a .so files.
+- To fix red underline in native-lib.cpp, configure include paths in CMakeLists.
+- This document is for internal reference only.
