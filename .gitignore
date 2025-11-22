@@ -1,29 +1,23 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle
+.gradle/
+build/
+app/build/
+externalNativeBuild/
+.cxx/
+
+# Local configuration
 local.properties
 
-# Android Studio generated files
-.idea/caches/
-.idea/workspace.xml
-.idea/navEditor.xml
+# Android Studio
+.idea/
+*.iml
 
-# Gradle build folders
-app/build/
-build/
+# Captures
+captures/
 
-# Mac/Windows system files
+# OS generated files
 .DS_Store
 Thumbs.db
 
+# Native build
+.externalNativeBuild
