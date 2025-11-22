@@ -162,5 +162,14 @@ This project was completed as part of an academic learning module to understand:
 - OpenGL ES rendering
 - TypeScript-based web visualization
 
+---
+
+## Developer Notes
+- Initial setup verified in Android Studio.
+- Gradle sync successful with latest Android SDK.
+- NDK and CMake paths were checked for compatibility.
+- Codebase reviewed to understand native ↔ Java flow.
+
+
 
 
