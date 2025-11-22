@@ -1,3 +1,5 @@
+// TODO: review memory optimization for future builds
+
 #include <jni.h>
 #include <android/log.h>
 #include <opencv2/core.hpp>
