@@ -13,3 +13,17 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Android Studio generated files
+.idea/caches/
+.idea/workspace.xml
+.idea/navEditor.xml
+
+# Gradle build folders
+app/build/
+build/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
