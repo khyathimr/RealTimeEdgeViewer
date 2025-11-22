@@ -1,3 +1,10 @@
+## Student Notes
+This project is part of the Flamapp.AI internship assignment.  
+These notes document my understanding while studying and running the project.  
+More updates will be added as I continue exploring the codebase.
+
+---
+
 RealTimeEdgeViewer
 
 A real-time Edge Detection Viewer combining Android (Camera2 + OpenCV + OpenGL ES 2.0) and a lightweight **TypeScript Web Viewer**.  
