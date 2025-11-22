@@ -28,6 +28,10 @@ Android (Native)
 
 Architecture Overview
 
+This project captures camera frames on Android using the Camera2 API, sends the Y-plane buffer to native C++ through JNI, and applies OpenCV Canny edge detection.
+The processed RGBA output is rendered using an OpenGL ES 2.0 surface for smooth real-time display.
+A lightweight web viewer replicates the visualization flow using TypeScript and HTML5 Canvas.
+
 Android Flow
 Camera2 → ImageReader (YUV) → JNI (Y-plane)
 → OpenCV (Canny Edge Detection)
