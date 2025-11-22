@@ -25,6 +25,7 @@ Android (Native)
 - FPS overlay and real-time frame simulation.
 - Local dev server via `npm run dev`.
 
+
 Architecture Overview
 
 Android Flow
@@ -71,7 +72,9 @@ npm run dev
 Open the link printed in terminal, usually:
 
 http://localhost:8080
-Expected: Canvas displaying static/animated edge preview and FPS counter.
+Expected: Canvas displaying static or animated edge preview with FPS counter.
+
+
 
 Project Structure
 
@@ -96,9 +99,10 @@ RealTimeEdgeViewer/
 ├── LICENSE
 └── README.md
 
+
 Tech Stack
 
-Layer	Technology
+Layer-Technology
 Native Processing	C++ + OpenCV
 Android Rendering	OpenGL ES 2.0
 UI Thread Handling	GLSurfaceView Renderer
