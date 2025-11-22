@@ -145,13 +145,14 @@ git commit -m "step 9: repo hygiene – finalized README and release"
 git tag -a v1.0 -m "v1.0 RealTimeEdgeViewer"
 git push && git push --tags
 
-License
-MIT License
-Copyright © 2025
-Permission is hereby granted, free of charge, to use, copy, modify, and distribute this project with attribution.
+## Student Notes
 
-Author
-Aditya Gupta
-Computer Science Engineer(AIML) | Technology Enthusiast
-Aditya Gupta
-Project focus: applied computer vision and real-time processing.
+This project was completed as part of an academic learning module to understand:
+- Camera2 + real-time frame processing
+- JNI bridge with C++
+- OpenCV edge detection pipeline
+- OpenGL ES rendering
+- TypeScript-based web visualization
+
+
+
